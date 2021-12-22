@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.temaPrincipal, .temaSecundario, .temaTerciario {
+    
+    text-transform: uppercase; 
+    padding: 35px 0;  
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    top: -200px;
+    box-shadow: 10px 10px 200px var(--branco)
+}
+
+.principal,.secundario {
+    padding: 2em 0;
+    background: var(--branco);
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;    
+}
+
+.principal em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.titulo-principal, .titulo-secundario {
+    text-align: center;
+    display: flow-root;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.logo {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.progress-prim, .progress-seg, .progress-ter, .progress-quar {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    
+}
+.pl-0 {
+    padding-left: 0;
+    /*!important*/
+}
+
+.imagem-it {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email{
+    text-align: center;
+    font-size: 26px;
+    padding: -10px;
+}
+
+.enviar {
+    width: 390px;
+    padding: 10px 0;
+    background: #87CEFA;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 3px 0;
+    text-align: center;
+}
+
+.enviar:hover {
+    background: #00BFFF ;
+    transform: scale(1.1);
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta name="viewport" content="width=device-width initial-scale=0.4">
+  <meta charset="UTF-8">
+  <title>Gestão Financeira</title>
+  <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+  <link rel="stylesheet" href="../css/cadastro.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css? family = Montserrat: & display = swap" rel="stylesheet">
+  <link rel="stylesheet" href="../plugins/bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../plugins/bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="../plugins/bootstrap-5.0.2-dist/css/bootstrap-reboot.css">
+  <script src="../plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="../plugins/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../plugins/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js"></script>
+</head>
+
+<!-- Navbar !-->
+<header>
+
+    <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../html/inicio.html"><img src="../img/logo.jpg" width="50px"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/inicio.html">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/sobre.html">Sobre</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/cadastro.html">Cadastro</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../html/login.html">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- início !-->
+
+<body>
+  <main>
+    <section class="borda">
+      <div class="container-fluid">
+      
+        <img src="../img/dinheiro.jpg" alt="login">
+        <h1>Cadastro</h1>
+      
+        <form method="post" id="fContato" action="dr.manfrin@gmail.com" oninput="calc_total();">
+
+          <div>
+            <label for="cMail">E-mail:</label>
+            <input type="email" name="tMail" id="cMail" size="20" maxlength="40" required
+                placeholder="seuemail@dominio.com">
+          </div>
+          <div>
+            <label for="cSenha">Senha:</label>
+            <input type="senha" name="tSenha" id="cSenha" size="10" maxlength="10" required
+                placeholder="senha">
+          </div>
+          <div>
+            <label for="cSenha">Confirmar senha:</label>
+            <input type="senha" name="tSenha" id="cSenha" size="10" maxlength="10" required
+                placeholder="senha">
+          </div>
+
+          <input type="submit" value="Enviar" class="enviar">
+
+        </form>
+      </div>
+
+    </section>
+  </main>
+    
+
+</body>
+
+<!-- rodapé !-->
+
+<footer>
+
+    <section class="logoRedes" style="background-color: #FFFF;">
+      <a class="navbar-brand" href="../html/inicio.html"><img src="../img/logo.jpg" class="mw-100" alt="Logo IT Lab" width="50px"></a>
+      </section>
+      
+    <p class="copyright">&copy; Copyright IT Lab</p>
+  </footer>  
+  
+  

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root {
+    --branco:#FFF;
+    --cinza-claro:#fffafaf8;
+    --cinza-medio:#f0f8ffbd;
+    --preto:#00070cfd;
+    --azul:#87CEFA;
+    --montserrat: 'Montserrat', sans-serif
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.nav-link {
+    position: relative;
+    margin: 0 0 0 30px;
+    right: -25px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase; 
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color:var(--azul);
+}
+
+.logoRedes {
+    text-align: center;
+    background: var(--azul);   
+    margin-top: 140px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    background: var(--branco);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.copyright {
+    color: var(--azul);
+    font-size: 13px;
+    margin: 0;
+}
+
+
