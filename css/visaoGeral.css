@@ -5,10 +5,6 @@
     border-color: rgb(3, 196, 255);
 }
 
-
-
-
-
 /*Página Cases de sucessos*/
 
 .principal {
@@ -48,7 +44,6 @@
 .servicos li {
     display: inline-block;
     text-align: center;
-    
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
