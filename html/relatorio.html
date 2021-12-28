@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Gestão Financeira</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+	<h1>Receita</h1>
+	<table id="id_da_tabela">
+		<thead>
+			<tr>
+				<td>Conta</td>
+				<td>Valor</td>
+				<td>Data de vencimento</td>
+				<td>Status</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Luz</td>
+				<td>113,24</td>
+				<td>29/12/2021</td>
+				<td>Pago</td>
+			</tr>
+			<tr>
+				<td>Água</td>
+				<td>254,84</td>
+				<td>31/12/2021</td>
+				<td>Não pago</td>
+			</tr>
+			<tr>
+				<td>Alimentação</td>
+				<td>700,00</td>
+				<td>30/12/2021</td>
+				<td>Pago</td>
+			</tr>
+		</tbody>
+   </table>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="//cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+	
+	<script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
+	<script>
+		$(document).ready( function () {
+    			$('#id_da_tabela').DataTable();
+		} );
+	</script>
+
+  </body>
+</html>
